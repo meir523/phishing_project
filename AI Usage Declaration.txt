@@ -1,0 +1,10 @@
+﻿AI Usage Declaration:
+Overview AI tools served as a technical assistant during development, focusing on code optimization and documentation. All outputs were manually reviewed and validated.
+Main tool used – Google Gemini.
+Key Contributions:
+1. Code Refactoring & Standards: Assisted in building the modular project shape (e.g., data_io.py, models.py).
+2. Logic Optimization: Refined data processing algorithms to prevent information loss.
+o Example: In preprocess.py, the AI suggested handling -1 (missing values) by creating a binary indicator feature (has_params) before imputing with zero. This preserved the distinction between "missing" and "zero" values.
+3. Visualization & Presentation: Generated code for complex Matplotlib/Seaborn plots used in the EDA phase and and helped with the editing and design of the presentation.
+Disclaimer: The AI acted solely as a copilot. All logic, security implications, and final code implementation were verified by me (M.G.).
+
